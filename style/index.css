@@ -43,7 +43,6 @@ header {
     min-width: 330px;  
     height: 48px; 
     font-size: 14px;
-    font-weight: 600;
     box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
 }
 
@@ -51,11 +50,13 @@ header {
     padding: 0 16px; 
     white-space: nowrap;
     flex-shrink: 0;
+    font-weight: 600;
     cursor: pointer; 
 }
 
 .little-search-button:nth-child(5) {
     color: #717171; 
+    font-weight:300
 }
 
 .divider {
@@ -104,24 +105,8 @@ header {
     background-color: #f7f7f7;
 }
 
-#header-right-side a {
-    display: block;
-    font-size: 14px; 
-    color: #313131; 
-    font-weight:700; 
-    flex-shrink: 0;
-    /* padding: 10px 13px;  */
-    gap: 8px; 
-    border-radius: 40px;
-}
-
-#header-right-side a:hover {
-    background-color: #f3f3f3;
-}
-
 #select-language-icon {
-    /* flex-basis: 30px;  */
-    width: 35px; 
+    flex-basis: 35px; 
     padding: 10px; 
     margin: 0 3px 0 0; 
     border-radius: 40px; 
