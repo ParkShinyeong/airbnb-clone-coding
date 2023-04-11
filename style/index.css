@@ -1,5 +1,7 @@
 @import url("reset.css"); 
 
+/* 헤더 */
+
 header {
     display: flex; 
     align-items: center;
@@ -140,6 +142,66 @@ header {
 
 #profile-section:hover {
     box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+}
+
+
+/* 카테고리 */
+#category-bar {
+    display: flex; 
+    padding: 20px 40px 0; 
+    gap: 32px; 
+    overflow: auto;
+    
+}
+
+#category-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.category-button {
+    height: 66px; 
+    font-size: 12px;
+    font-weight: 600;
+    color: #717171; 
+    cursor: pointer; 
+}
+
+.category-button:hover {
+    color: black; 
+    border-bottom: 2px solid #DDDDDD;  
+}
+
+.category-button span {
+    white-space: nowrap;
+}
+
+.category-button img {
+    width: 26px; 
+}
+
+.category-active-icon {
+    display: none;
+}
+
+.category-button:hover .category-inactive-icon{
+    display: none;
+}
+
+.category-button:hover .category-active-icon{
+    display: inline-block;
+}
+
+#active-category-button {
+    color: black; 
+    border-bottom: 2px solid black;  
+}
+
+#active-category-button .category-active-icon {
+    display: inline-block;
+}
+
+#active-category-button .category-inactive-icon{
+    display: none;
 }
 
 
