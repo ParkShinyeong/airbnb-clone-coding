@@ -205,3 +205,52 @@ header {
 }
 
 
+/* main */
+main {
+    margin: 16px 0 40px 0;
+    padding: 0 80px; 
+    display: grid; 
+    grid-template-columns: repeat(6, 250px);
+    gap: 40px 24px; 
+}
+
+.place-image-wrapper {
+    display: block; 
+    position: relative;  
+}
+
+.place-image-wrapper img {
+    width: 250px; 
+    border-radius: 20px; 
+}
+
+.place-image-wrapper .heart-icon {
+    position: absolute; 
+    top: 16px; 
+    right: 16px; 
+    width: 24px; 
+    height: 24px; 
+}
+
+.description-section {
+    display: flex; 
+    flex-direction: column;
+    font-size: 15px; 
+    color: rgb(113, 113, 113); 
+    gap: 3px; 
+}
+
+.place-description-title {
+    margin: 6px 0; 
+    color: black; 
+    font-weight: 600;
+}
+
+.description-price {
+    margin: 6px 0; 
+    color: black;
+}
+
+.description-price span:first-child {
+    font-weight: 600;
+}
