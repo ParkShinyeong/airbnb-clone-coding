@@ -224,12 +224,18 @@ main {
     border-radius: 20px; 
 }
 
-.place-image-wrapper .heart-icon {
+.place-image-wrapper .heart-icon, .place-image-wrapper .heart-active-icon {
     position: absolute; 
     top: 16px; 
     right: 16px; 
     width: 24px; 
     height: 24px; 
+}
+
+
+.place-image-wrapper .heart-icon:active, .heart-active-icon:active {
+    transform: scale(0.9);
+    transition: 0.1s; 
 }
 
 .description-section {
@@ -253,4 +259,16 @@ main {
 
 .description-price span:first-child {
     font-weight: 600;
+}
+
+.heart-active-icon {
+    display: none; 
+}
+
+.active-heart-button .heart-icon {
+    display: none; 
+}
+
+.active-heart-button .heart-active-icon {
+    display: inline-block; 
 }
