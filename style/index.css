@@ -206,7 +206,7 @@ header {
 
 
 /* main */
-main {
+#place-wrapper {
     margin: 16px 0 40px 0;
     padding: 0 80px; 
     display: grid; 
@@ -271,4 +271,30 @@ main {
 
 .active-heart-button .heart-active-icon {
     display: inline-block; 
+}
+
+#search-map-button {
+    padding: 14px 19px; 
+    display: flex; 
+    position: fixed;
+    left: 50%; 
+    bottom: 100px; 
+    background-color: #222222;
+    border-radius: 24px; 
+    align-items: center; 
+    justify-content: center;
+    gap: 8px; 
+    cursor: pointer; 
+    font-weight: 400; 
+    font-size: 14px; 
+    color: white; 
+}
+
+#search-map-button:hover {
+    transform: scale(1.05); 
+    transition: 0.3s; 
+}
+
+#search-map-button img {
+    width: 16px; 
 }
