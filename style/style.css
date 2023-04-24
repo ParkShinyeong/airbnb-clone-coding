@@ -89,5 +89,70 @@ header {
 
 #solid-glass-wrapper img {
     width: 12px; 
-
 }
+
+/* user nav bar  */
+
+#user-button-wrapper {
+    display: flex; 
+    align-items: center;
+    gap: 8px; 
+    cursor: pointer; 
+}
+
+#user-participation-bar {
+    display: flex; 
+    align-items: center;
+}
+
+.host-user-link {
+    padding: 12px; 
+    font-size: 14px; 
+    font-weight: 600; 
+    border-radius: 40px; 
+}
+
+.host-user-link:hover {
+    background-color: #f7f7f7;
+}
+
+.language-area-button {
+    margin-left: -5px; 
+    padding: 12px; 
+    display: inline-block; 
+    border-radius: 40px; 
+    cursor: pointer; 
+}
+
+.language-area-button:hover {
+    background-color: #f7f7f7;
+}
+
+.language-area-button img {
+    width: 16px; 
+}
+
+#user-information-bar {
+    padding: 10px 15px; 
+    border-radius: 40px;
+    border: 1px solid rgb(221, 221, 221); 
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 2px 0px, rgba(0, 0, 0, 0.05) 0px 4px 12px 0px;
+    transition: box-shadow 0.3s ease; 
+}
+
+#user-information-bar:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 6px 15px 0px;
+}
+
+.user-information-button {
+    display: inline-block; 
+    display: flex; 
+    align-items: center;
+    gap: 8px; 
+}
+
+
+.user-information-button img{
+    width: 14px; 
+}
+
