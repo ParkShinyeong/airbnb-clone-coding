@@ -111,6 +111,7 @@ header {
     font-size: 14px; 
     font-weight: 600; 
     border-radius: 40px; 
+    white-space: nowrap;
 }
 
 .host-user-link:hover {
@@ -171,8 +172,7 @@ header {
     display: flex; 
     align-items: center;
     justify-content: space-around;
-    gap: 32px; 
-    width: 1090px; 
+    gap: 32px;  
     overflow: auto; 
 }
 
@@ -211,8 +211,30 @@ header {
     display: none; 
 }
 
+.category-bar-button:hover .active-category-icon {
+    display: block; 
+}
+
+.category-bar-button:hover .category-icon {
+    display: none; 
+}
+
+#active-button {
+    border-bottom: 2px solid black;
+    color: black;  
+}
+
+#active-button .active-category-icon {
+    display: block; 
+}
+
+#active-button .category-icon {
+    display: none; 
+}
+
 #accomodation-setting-filter {
     margin: 7px 0 7px 24px; 
+    padding: 0 10px; 
     display: flex; 
     align-items: center;
     justify-content: center;
@@ -224,6 +246,7 @@ header {
     font-size: 12px; 
     color: rgb(34, 34, 34);
     cursor: pointer; 
+    white-space: nowrap;
 
 }
 
